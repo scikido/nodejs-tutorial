@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Chat</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Add this line -->
+</head>
+<body>
+  <div id="chat-container">
+    <h1>Simple Chat</h1>
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="message" type="text" placeholder="Type a message" autocomplete="off" />
+      <button>Send</button>
+    </form>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
